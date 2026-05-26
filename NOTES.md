@@ -47,3 +47,18 @@
   - [How to set (and delete) custom icon on Mac](https://www.craft.do/s/dhXngIMJLQu96b).
 - https://github.com/43081j/packumeta
 - https://github.com/sxzz/npm-top-publishing
+- https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/
+  - https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/#counting-package-downloads
+- https://github.com/ClickHouse/clickpy
+- https://github.com/ClickHouse/clickhouse-connect
+  - https://github.com/ClickHouse/clickhouse-connect/blob/90725762507002c8906641f20f7a3d05e139fb48/setup.py
+  - https://github.com/ClickHouse/clickhouse-connect/blob/90725762507002c8906641f20f7a3d05e139fb48/examples/pandas_examples.py
+- https://docs.pypi.org/api/json/
+- https://docs.pypi.org/api/integrity/
+
+## Snippets
+
+```python
+schema = client.query_df("DESCRIBE pypi.pypi_downloads")
+print(schema)
+```
