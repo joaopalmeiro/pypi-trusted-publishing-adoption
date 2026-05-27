@@ -66,6 +66,10 @@
   - "`max_keepalive_connections`: The maximum number of idle HTTP connections that will be maintained in the pool."
   - "`keepalive_expiry`: The duration in seconds that an idle HTTP connection may be maintained for before being expired from the pool."
 - https://docs.pypi.org/api/#rate-limiting
+- https://packaging.pypa.io/en/stable/utils.html#packaging.utils.parse_sdist_filename
+- https://slsa.dev/spec/v1.0/provenance: `"predicateType": "https://slsa.dev/provenance/v1"`
+- https://docs.pypi.org/attestations/publish/v1/
+- https://github.com/in-toto/attestation/blob/main/spec/README.md
 
 ## Snippets
 
