@@ -54,7 +54,18 @@
   - https://github.com/ClickHouse/clickhouse-connect/blob/90725762507002c8906641f20f7a3d05e139fb48/setup.py
   - https://github.com/ClickHouse/clickhouse-connect/blob/90725762507002c8906641f20f7a3d05e139fb48/examples/pandas_examples.py
 - https://docs.pypi.org/api/json/
+  - https://docs.pypi.org/api/index-api/#json_1
 - https://docs.pypi.org/api/integrity/
+- https://github.com/pydantic/httpx2
+- https://rednafi.com/python/limit-concurrency-with-semaphore/
+- https://www.matuzo.at/blog/2026/aria-label-generic-elements
+- https://docs.python.org/3/library/asyncio-sync.html#asyncio.Semaphore
+- https://httpx2.pydantic.dev/advanced/resource-limits/
+  - https://www.encode.io/httpcore/async/
+  - "`max_connections`: The maximum number of concurrent HTTP connections that the pool should allow. Any attempt to send a request on a pool that would exceed this amount will block until a connection is available."
+  - "`max_keepalive_connections`: The maximum number of idle HTTP connections that will be maintained in the pool."
+  - "`keepalive_expiry`: The duration in seconds that an idle HTTP connection may be maintained for before being expired from the pool."
+- https://docs.pypi.org/api/#rate-limiting
 
 ## Snippets
 
